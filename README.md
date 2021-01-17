@@ -5,4 +5,11 @@ For my General Assembly Data Science Immersive Program capstone, I decided to br
 Steps:
 1. Gain permission to scrape weartesters.com
 2. Scrape weartesters.com and acquire the links for each individual shoe review
-3. Scrape each link to collect 
+3. Scrape each link to collect whatever data was in the link
+4. Review the raw data and determine which data could be removed
+5. Discard all data besides the text from the reviews (links, advertisements, images)
+6. Save the reviews in a dataframe - each full review is its own cell
+7. Go back and scrape the title from each review and save them in a second dataframe
+8. Concatenate the two dataframes into one ensuring that the titles line up with the correct reviews
+9. Drop all stop words (the, a, and, an, etc.) from the reviews
+10. 
