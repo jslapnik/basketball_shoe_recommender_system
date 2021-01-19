@@ -7,7 +7,7 @@ When I am looking to buy new shoes, I do not always have time to read and/or wat
 I reached out and explained my idea to one of the founders and he loved the idea. He gave me permission to scrape their website to gather all of the reviews to build my system. Once all of the reviews were scraped, I was able to break them down using Natural Language Processing and assign a weight to each word (the more a word shows up, the greater the weight). Once each word was weighted, I used cosine similarity to compare reviews to one another. When a shoe is inputted into the system, the program goes through and finds the shoes with the highest cosine similarity to the input and outputs the top five results. The user can then go and research those shoes to determine if they want any of those shoes.
 
 
-
+Sidenote: I am currently in the planning stages of using this program to build an app with a programmer friend
 
 
 
